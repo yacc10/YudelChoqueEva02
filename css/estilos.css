@@ -1,0 +1,325 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0d0557;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: "Concert One";
+    font-size: 13px;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: rgb(230, 230, 217);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #13b7e9;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #dfd6d6;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/city-7517202_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family: "Rowdies";
+    font-size: 35px;
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    font-family: "Rowdies";
+    font-size: 25px;
+    color: #d9e5fa;
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family: "Embed code";
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+
+}
+
+.button {
+    background-color: #90b9c4;
+    color: rgb(14, 13, 13);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 20px;
+    font-family: "Concert One";
+}
+
+.button:hover {
+    background-color: #2b64ff;
+    color: #f0f0f0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/network-9091914_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 120px;
+    margin-bottom: 35px;
+    font-family: "Rowdies";
+    font-size: 25px;
+    color: #c1e2f8;
+    letter-spacing: 1.5px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #e3e9f5;
+    font-size: 20px;
+}
+.figuras a:hover {
+   
+    color: #188acc;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #435da3;
+    padding: 50px 0;
+    border-radius: px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 26px;
+    font-family: "Rowdies";
+    margin-bottom: 20px;
+    color: #e0e8f5;
+    letter-spacing: 2px;
+  }
+
+  .galeria p {
+    color: #dcdeeb;
+    text-align: center;
+    font-size: 14px;
+    line-height: 4px ;
+    margin-bottom: 20px;
+    font-family: "Concert one";
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #c0cdd6;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: "Concert one";
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #a3bee7;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #767ff5;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #4272a5;
+  }
+
+  
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #0d0557;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .filas{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+ .filas h3{
+    font-size: 20px;
+
+ }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #d5f0f4;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
